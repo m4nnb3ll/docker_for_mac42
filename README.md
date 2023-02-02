@@ -7,7 +7,7 @@ A light guide on how to use docker in your 42 MacOS(For me it's CatalinaOS)
 
 ### Install [42-wizzard](https://github.com/0xShady/42_wizzard)
 
-<p align="center"> <img src="https://github.com/m4nnb3ll/docker_for_mac42/blob/images/f2.jpg" alt="42 wizzard installation" /> </p>
+<p align="center"> <img src="https://github.com/m4nnb3ll/docker_for_mac42/blob/images/f2.png" alt="42 wizzard installation" /> </p>
 
 ### Run the following in the terminal
 ```
