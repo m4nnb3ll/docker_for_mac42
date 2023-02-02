@@ -37,6 +37,9 @@ and do the following:
 docker exec -it deb_container bash
 ```
 <p align="center"> <img src="https://github.com/m4nnb3ll/docker_for_mac42/blob/images/4f.png" alt="exec container" /> </p>
+
 #### Once you are inside the container, you can then install the programs that you want
+
 Let's install `valgrind` for example:
+
 <p align="center"> <img src="https://github.com/m4nnb3ll/docker_for_mac42/blob/images/4.jpg" alt="vscode terminal" /> </p>
