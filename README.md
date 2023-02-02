@@ -6,14 +6,16 @@ A light guide on how to use docker in your 42 MacOS(For me it's CatalinaOS)
 <p align="center"> <img src="https://github.com/m4nnb3ll/docker_for_mac42/blob/images/1.png" alt="docker installation on MSC" /> </p>
 
 ### Install [42-wizzard](https://github.com/0xShady/42_wizzard)
-
+```
+curl -fsSL https://raw.githubusercontent.com/0xShady/42_wizzard/main/assistance/42-wizzard-installer.sh | zsh && source ~/.zshrc
+```
 <p align="center"> <img src="https://github.com/m4nnb3ll/docker_for_mac42/blob/images/f2.png" alt="42 wizzard installation" /> </p>
 
 ### Run the following in the terminal
 ```
 42 -docker
 ```
-The command will change Docker to your goinfre
+The command will change Docker location to your goinfre
 
 ### Now that docker is installed, run it
 
@@ -34,6 +36,7 @@ and do the following:
 ```
 docker exec -it deb_container bash
 ```
+<p align="center"> <img src="https://github.com/m4nnb3ll/docker_for_mac42/blob/images/4f.png" alt="exec container" /> </p>
 #### Once you are inside the container, you can then install the programs that you want
 Let's install `valgrind` for example:
 <p align="center"> <img src="https://github.com/m4nnb3ll/docker_for_mac42/blob/images/4.jpg" alt="vscode terminal" /> </p>
