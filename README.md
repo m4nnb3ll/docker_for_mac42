@@ -38,6 +38,8 @@ docker exec -it deb_container bash
 ```
 <p align="center"> <img src="https://github.com/m4nnb3ll/docker_for_mac42/blob/images/4f.png" alt="exec container" /> </p>
 
+So, now you will have two terminals, one for your local machine, and one for the Docker machine :) cool!
+
 #### Once you are inside the container, you can then install the programs that you want
 
 Let's install `valgrind` for example:
