@@ -25,7 +25,7 @@ The command will change Docker location to your goinfre
 #### Run a container based on an image that you want, for me i chose `debian`
 **Go to the directory that you want to share with your docker container** and do the following:
 ```
-docker run -tdv $(pwd):/root/ --name deb_container debian
+docker run -tdv $(pwd):/root/mac/ --name deb_container debian
 ```
 #### Get inside the container that you just run
 Go to an empty terminal, for example you can split terminal in your VSCode:
@@ -37,6 +37,8 @@ and do the following:
 docker exec -it deb_container bash
 ```
 <p align="center"> <img src="https://github.com/m4nnb3ll/docker_for_mac42/blob/images/4f.png" alt="exec container" /> </p>
+
+> After the command above, you will be inside the container machine, you can go to the Mac home by `cd ~/mac`.
 
 So, now you will have two terminals, one for your local machine, and one for the Docker machine :) cool!
 
